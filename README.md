@@ -11,7 +11,7 @@ master branch via cronjob.
 
 ### Using [Vundle][v]
 
-1. Add `Plugin 'wting/rust.vim'` to `~/.vimrc`
+1. Add `Plugin 'DevoNoel/rust.vim'` to `~/.vimrc`
 2. `vim +PluginInstall +qall`
 
 *Note:* Vundle will not automatically detect Rust files properly if `filetype
@@ -21,7 +21,7 @@ details.
 ### Using [Pathogen][p]
 
 1. `cd ~/.vim/bundle`
-2. `git clone https://github.com/wting/rust.vim.git`
+2. `git clone https://github.com/DevoNoel/rust.vim.git`
 
 [rr]: https://github.com/rust-lang/rust
 [p]: https://github.com/tpope/vim-pathogen
