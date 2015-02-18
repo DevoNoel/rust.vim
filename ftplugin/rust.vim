@@ -36,7 +36,7 @@ silent! setlocal formatoptions+=j
 setlocal smartindent nocindent
 
 if !exists("g:rust_recommended_style") || g:rust_recommended_style == 1
-	setlocal tabstop=4 shiftwidth=4 softtabstop=4 expandtab
+	setlocal tabstop=2 shiftwidth=2 softtabstop=2 expandtab
 	setlocal textwidth=99
 endif
 
